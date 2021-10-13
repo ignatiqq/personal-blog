@@ -1,0 +1,60 @@
+.article-edit {
+  input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    margin: 10px 0px;
+  }
+
+  textarea {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 15px;
+    border-radius: 10px;
+    height: 200px;
+  }
+
+  &__markdown {
+    & {
+      display: flex;
+      margin: 50px 0px;
+    }
+
+    &-prompt {
+      color: #fff;
+      font-size: 18px;
+    }
+
+    &-href {
+      font-size: 18px;
+      margin-left: 20px;
+      color: #00aeff;
+    }
+  }
+
+  &__type {
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+  }
+
+  &__changetitle {
+    color: #fff;
+    font-size: 25px;
+  }
+
+  &__btns {
+    &-edit {
+      margin-top: 20px;
+      padding: 10px 40px;
+      font-weight: bold;
+    }
+  }
+
+  &__btnprev {
+    margin: 15px 0px;
+    padding: 10px 30px;
+    font-weight: bold;
+  }
+}

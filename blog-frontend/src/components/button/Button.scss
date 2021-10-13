@@ -1,0 +1,13 @@
+.button-standart {
+  & {
+    background: #fff;
+    color: #292929;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: scale(0.95);
+    }
+  }
+}

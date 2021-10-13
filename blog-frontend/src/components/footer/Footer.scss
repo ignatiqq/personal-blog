@@ -1,0 +1,45 @@
+.footer {
+  & {
+    border: 1px solid #161616;
+    border-radius: 50px 50px 0px 0px;
+    background: #161616;
+  }
+  &__inner {
+    & {
+      padding: 30px;
+    }
+    &-about {
+      display: flex;
+      justify-content: space-between;
+
+      &-socials {
+        & {
+        }
+
+        &-links a svg {
+          font-size: 30px;
+          margin-left: 10px;
+        }
+      }
+
+      &-name {
+        & {
+          display: flex;
+          align-items: center;
+        }
+        & div {
+          font-weight: bold;
+          font-size: 20px;
+          color: #fff;
+        }
+
+        & a {
+          text-decoration: underline;
+          color: #fff;
+          font-size: 20px;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
